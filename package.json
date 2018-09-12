@@ -1,6 +1,6 @@
 {
   "name": "@thebrockellis/loading-spinner",
-  "private": false,
+  "public": true,
   "version": "1.0.0",
   "description": "A simple loading spinner for use in a stenciljs or web component application",
   "main": "dist/index.js",

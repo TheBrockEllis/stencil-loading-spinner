@@ -1,41 +1,24 @@
-# Stencil Loading Spinner Component
+# Loading Spinner Web Component
 
-Stencil is a compiler for building fast web apps using Web Components.
+A highly customizable loading spinner as a pure web component.
 
-Stencil combines the best concepts of the most popular frontend frameworks into a compile-time rather than run-time tool.  Stencil takes TypeScript, JSX, a tiny virtual DOM layer, efficient one-way data binding, an asynchronous rendering pipeline (similar to React Fiber), and lazy-loading out of the box, and generates 100% standards-based Web Components that run in any browser supporting the Custom Elements v1 spec.
+![Preview](https://media.giphy.com/media/26vIg1eDTCsCWYFGM/giphy.gif)
 
-Stencil components are just Web Components, so they work in any major framework or with no framework at all. In many cases, Stencil can be used as a drop in replacement for traditional frontend frameworks given the capabilities now available in the browser, though using it as such is certainly not required.
+## Credit
 
-Stencil also enables a number of key capabilities on top of Web Components, in particular Server Side Rendering (SSR) without the need to run a headless browser, pre-rendering, and objects-as-properties (instead of just strings).
+The code for this spinner was written by [seanwuapps](https://github.com/seanwuapps/stencil-loading-spinner). All the props to him. I just submitted it to npm.
 
-## Get started
+## Installation
 
-Clone this repo and cd into the folder, then run the following commands
-
-```bash
-npm install
-npm start
-```
-
-To view the build, start an HTTP server inside of the `/www` directory.
-
-To watch for file changes during develop, run:
-
-```bash
-npm run dev
-```
-
-To build the app for production, run:
-
-```bash
-npm run build
-```
+`npm install @thebrockellis/loading-spinner`
 
 ## Usage
 
-Preview
+At the top of your component/page, import the package like so:
 
-![Preview](https://media.giphy.com/media/26vIg1eDTCsCWYFGM/giphy.gif)
+`import '@thebrockellis/loading-spinner';`
+
+## Configuration
 
 ```html
 <loading-spinner type="android" color="green"></loading-spinner>

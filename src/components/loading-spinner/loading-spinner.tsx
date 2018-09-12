@@ -66,6 +66,6 @@ export class Spinner {
             default :
                 return (null);
         }
-        
+
     }
 }

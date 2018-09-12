@@ -1,8 +1,12 @@
 {
-  "name": "@stencil/starter",
-  "private": true,
-  "version": "0.0.1",
-  "description": "Stencil Starter App",
+  "name": "@thebrockellis/loading-spinner",
+  "private": false,
+  "version": "1.0.0",
+  "description": "A simple loading spinner for use in a stenciljs or web component application",
+  "main": "dist/index.js",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "module": "dist/esm/es5/index.js",
   "files": [
     "dist/"
   ],
@@ -23,12 +27,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/stencil-starter.git"
+    "url": "git+https://github.com/TheBrockEllis/stencil-loading-spinner"
   },
   "author": "Ionic Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ionic-team/stencil"
+    "url": "https://github.com/TheBrockEllis/stencil-loading-spinner/issues"
   },
-  "homepage": "https://github.com/ionic-team/stencil"
+  "homepage": "https://github.com/TheBrockEllis/stencil-loading-spinner"
 }
